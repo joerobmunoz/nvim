@@ -1,2 +1,2 @@
 require("base")
-print("hello")
+print("base config loaded")
