@@ -4,5 +4,6 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+-- pv File Explore
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 -- vim.g.mapleader = ","
--- vim.keymap.set("n", "<>pv", vim.cmd.Ex)
