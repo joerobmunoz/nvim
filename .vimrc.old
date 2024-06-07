@@ -1,0 +1,28 @@
+filetype plugin indent on
+syntax on
+silent! runtime macros/matchit.vim
+
+# vim in iterm2
+set -o vi
+
+set nocompatible
+set backspace=indent,eol,start
+set showcmd
+set number
+set relativenumber
+set ruler
+
+set wildmenu
+
+nnoremap gb :buffers<CR>:sb<Space>
+nnoremap jj<ESC>
+
+" Search
+set ignorecase
+set incsearch
+
+" VIM Meta
+set tags=./tags;/,tags;/
+" Auto-load vimrc edits
+autocmd BufWritePost .vimrc source %
+set notermguicolors 
